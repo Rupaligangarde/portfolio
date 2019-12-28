@@ -6,9 +6,9 @@
     "start": "PORT=1111 parcel index.html"
   },
   "author": "Rupali Gangarde",
-  "license": "self",
   "dependencies": {
-    "parcel-bundler": "1.12.3",
-    "sass": "^1.24.0"
+    "parcel-bundler": "1.12.4",
+    "sass": "^1.24.0",
+    "serialize-to-js": "3.0.2"
   }
 }
