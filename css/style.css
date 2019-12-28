@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, ::before {
+    box-sizing: inherit;
+}
+
+.header{
+    background-image: url("../images/High_resolution_wallpaper_background_ID_77700362922-1200x675.jpg");
+    height: 450px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.navigation{
+    height: 100px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.navigation ul a{
+    padding-right: 20px;
+}
+
+.avatar{
+    width: 250px;
+    margin: 30px;
+    position: relative;
+    height: 380px;
+    padding: 5px;
+}
+
+.profile{
+    margin-left: 350px;
+    position: absolute;
+}
+
+.details{
+    padding: 20px;
+    padding-top: 10px;
+    padding-right: 110px;
+    margin: 14px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.details dt{
+    float: left;
+    width: 55%;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.details dd{
+    margin-left: 55%;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}

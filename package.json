@@ -1,0 +1,14 @@
+{
+  "name": "portfolis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=1111 parcel index.html"
+  },
+  "author": "Rupali Gangarde",
+  "license": "self",
+  "dependencies": {
+    "parcel-bundler": "1.12.3",
+    "sass": "^1.24.0"
+  }
+}
