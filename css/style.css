@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 
-.header{
+.header {
     background-image: url("../images/High_resolution_wallpaper_background_ID_77700362922-1200x675.jpg");
     height: 450px;
     width: 100%;
@@ -14,17 +14,17 @@ html {
     padding-left: 40px;
 }
 
-.navigation{
+.navigation {
     height: 100px;
     padding-top: 40px;
     width: 100%;
 }
 
-.navigation ul a{
+.navigation ul a {
     padding-right: 20px;
 }
 
-.avatar{
+.avatar {
     width: 250px;
     margin: 30px;
     position: relative;
@@ -32,12 +32,12 @@ html {
     padding: 5px;
 }
 
-.profile{
+.profile {
     margin-left: 350px;
     position: absolute;
 }
 
-.details{
+.personalDetails {
     padding: 20px;
     padding-top: 10px;
     padding-right: 110px;
@@ -46,17 +46,85 @@ html {
     margin-top: 30px;
 }
 
-.details dt{
+.personalDetails dt {
     float: left;
     width: 55%;
-    padding-bottom:10px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.details dd{
+.personalDetails dd {
     margin-left: 55%;
     padding-bottom: 10px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.details {
+    margin: 80px;
+    /*background-color: red;*/
+    padding: 10px;
+}
+
+.details section:first-child {
+    padding: 20px;
+}
+
+.details section > p {
+    padding-bottom: 20px;
+}
+
+.hello button {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #ffc30f;
+    margin: 10px;
+}
+
+hr {
+    margin-left: -80px;
+    margin-right: -80px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+h4 {
+    color: #646464;
+}
+
+
+.education p {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #646464;
+    font-size: 15px;
+}
+
+.eduDetails{
+    padding-bottom:30px;
+}
+
+.eduDetails:last-child{
+    padding-bottom: 0;
+}
+.education p:last-child{
+    padding-bottom: 0;
+}
+
+.education {
+    border-left: 2px solid #ffc30f;
+}
+.eduDetails:before {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ffc30f;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    background-color: #fff;
+    left: 92px;
 }
